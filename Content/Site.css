@@ -1,0 +1,232 @@
+﻿body
+{
+    padding: 5px 20px 0px 20px;
+    background: rgba(248, 248, 248, 0.96);
+}
+#top-navbar
+{
+    margin: auto;
+    top: 5px;
+}
+#top-navbar .navbar-inner
+{
+    border-width: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+#top-navbar .brand img
+{
+    vertical-align: top;
+    width: 20px;
+}
+#top-navbar .dropdown-menu > li > a
+{
+    white-space: normal;
+}
+#top-navbar .navbar-inner
+{
+    background-image: none;
+}
+.main-container
+{
+    margin-top: 10px;
+}
+.post-content
+{
+    display: block;
+    font-size: 14px;
+    padding: 6px 14px 7px;
+}
+.size32
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+.profile-summary .profile-pic
+{
+    display: inline-block;
+}
+.profile-summary .fullname
+{
+    display: inline-block;
+    font-weight: bold;
+}
+#tiles .profile-summary .fullname
+{
+    width: 164px;
+}
+#compose-container
+{
+    margin-top: 10px;
+    width: auto;
+}
+#compose-box
+{
+    width: 90%;
+    height: 25px;
+}
+#contentCol
+{
+    margin: 0px;
+}
+.picture-btn
+{
+    padding: 4px;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle
+{
+    background-color: transparent;
+}
+.navbar .nav > li > a
+{
+    padding: 10px 6px 5px;
+}
+.navbar .nav > li > input
+{
+    margin: 5px;
+}
+.modal-header h3
+{
+    line-height: 25px;
+}
+h3
+{
+    font-size: 19px;
+}
+.modal-backdrop, .modal-backdrop.fade.in
+{
+    background-color: #FFFFFF;
+    opacity: 0.7;
+}
+#form-signin-container
+{
+    max-width: 600px;
+    margin: 140px auto auto;
+    text-align: center;
+}
+.form-signin
+{
+    max-width: 300px;
+    padding: 19px 29px 19px;
+    margin: 0 auto 10px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin input[type="text"], .form-signin input[type="password"]
+{
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+.message-container
+{
+    display: none;
+    left: 50%;
+    position: absolute;
+    z-index: 100000;
+}
+.message-container .alert
+{
+    margin-left: -200px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    position: fixed;
+    visibility: visible;
+    width: 400px;
+}
+.message-container .alert .close
+{
+    top: 0px;
+}
+.form-horizontal .control-group
+{
+    margin-bottom: 10px;
+}
+.form-horizontal .control-label
+{
+    text-align: left;
+    width: 130px;
+}
+.form-horizontal .controls
+{
+    margin-left: 150px;
+}
+.input-tiny
+{
+    width: 20px;
+}
+#maxLeadsType
+{
+    width: 120px;
+}
+#campaign #campaign-image
+{
+    background-color: #F7F7F9;
+    border: 1px solid #E1E1E8;
+    display: block;
+    width: 110px;
+    height: 110px;
+}
+#campaign #image-hoder
+{
+    margin: auto;
+}
+#button-row
+{
+    float: right;
+}
+#button-row-hr
+{
+    margin-bottom: 5px;
+}
+.text-header
+{
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 8px;
+}
+#header
+{
+    padding: 20px 0px 0px 0px;
+}
+#header div, #header label
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: auto;
+}
+#header input
+{
+    margin-bottom: auto;
+}
+#header .checkbox
+{
+    padding-right: 10px;
+}
+.bold
+{
+    font-weight: bold;
+}
+.typeahead.dropdown-menu
+{
+    max-width: 200px;
+}
+a.edit-btn
+{
+    font-size: small;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.input-date
+{
+    width: 120px;
+}

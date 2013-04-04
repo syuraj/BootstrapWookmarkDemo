@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Bootstrap Woodmark Demo</title>
+    <link href="../Content/Library/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/Library/wookmark/wookmark.reset.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/Library/wookmark/wookmark.css" rel="stylesheet" type="text/css" />
+    <link href="../Content/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="top-navbar" class="navbar navbar-static">
+        <div class="navbar-inner">
+            <div style="width: auto;" class="container">
+                <a href="https://twitter.com/syyuraj" class="brand">
+                    <img alt="CM logo" src="../Content/Images/campaign-manager.png" />
+                    Bootstrap Woodmark Demo</a>
+                <ul class="nav pull-right">
+                    <li class="dropdown">
+                        <input id="globalSearch" type="search" class="input-small search-query" placeholder="Search" />
+                    </li>
+                    <li id="campaign-menu" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle"
+                        role="button" id="drop3" href="#">Suraj<b class="caret"></b></a>
+                        <ul aria-labelledby="drop3" role="menu" class="dropdown-menu">
+                            <li><a href="http://esuraj.tumblr.com" tabindex="-1">Profile</a></li>
+                            <li><a href="https://twitter.com/syyuraj" tabindex="-1">Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#" tabindex="-1">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="main-container">
+        <div id="content" class="container-fluid">
+            <div class="row-fluid">
+                <div id="leftCol" class="span2">
+                    <div class="mini-profile">
+                        <div class="profile-summary">
+                            <div class="profile-pic">
+                                <a href="Index">
+                                    <img class="size32" src="https://si0.twimg.com/profile_images/145962244/profile_stumble_normal.jpg"
+                                        alt="Suraj Shrestha" />
+                                </a>
+                            </div>
+                            <div class="fullname">
+                                <a href="Index"><b>Suraj Shrestha</b></a>
+                            </div>
+                        </div>
+                        <div class="home-tweet-box tweet-box component tweet-user">
+                            <div class="tweet-content">
+                                <div id="compose-container">
+                                    <textarea id="compose-box" class="input" placeholder="what's your say"></textarea>
+                                </div>
+                            </div>
+                            <div class="toolbar">
+                                <button class="btn" type="button">
+                                    Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contentCol" class="span10">
+                    <div id="tiles">
+                        <!-- These is where we place content loaded from the Wookmark API -->
+                    </div>
+                    <div id="loaderCircle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="../Content/Library/bootstrap/bootstrap.js" type="text/javascript"></script>
+    <script src="../Content/Library/wookmark/jquery.wookmark.js" type="text/javascript"></script>
+    <script src="../Scripts/Home.js" type="text/javascript"></script>
+</body>
+</html>
