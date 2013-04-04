@@ -4,3 +4,6 @@ Uses
 Bootstrap 2.3.0
 jQuery 1.8.3
 jquery wookmark 1.1.0
+
+For screenshot and more information: 
+http://esuraj.tumblr.com/post/47115727700/bootstrap-with-jquery-woodmark-demo
